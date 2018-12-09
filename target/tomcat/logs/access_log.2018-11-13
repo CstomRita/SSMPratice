@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:21:44:25 +0800] "POST /SSM/test/api/jwt/login HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:21:45:12 +0800] "POST /SSM/test/api/jwt/login HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:00:00 +0800] "POST /SSM/test/api/jwt/login HTTP/1.1" 500 4092 http-bio-8080-exec-2 168
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:00:41 +0800] "POST /SSM/test/api/jwt/login?userId=12345&password=123 HTTP/1.1" 500 4092 http-bio-8080-exec-4 10
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:01:56 +0800] "POST /SSM/test/api/jwt/login?userId=12345&passWord=123 HTTP/1.1" 200 179 http-bio-8080-exec-6 1236
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:03:00 +0800] "POST /SSM/test/api/jwt/getMessage HTTP/1.1" 404 949 http-bio-8080-exec-9 8
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:03:29 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 200 17 http-bio-8080-exec-10 11
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:04:53 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 200 17 http-bio-8080-exec-2 789
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:06:53 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 401 951 http-bio-8080-exec-2 164
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:07:42 +0800] "GET /SSM/test/api/jwt/login?userId=12345&password=123 HTTP/1.1" 500 4390 http-bio-8080-exec-3 101
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:07:50 +0800] "GET /SSM/test/api/jwt/login?userId=12345&passWord=123 HTTP/1.1" 200 179 http-bio-8080-exec-5 932
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:08:01 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 401 951 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:08:11 +0800] "GET /SSM/test/api/jwt/login?userId=12345&passWord=123 HTTP/1.1" 200 179 http-bio-8080-exec-7 9
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:08:37 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 401 951 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:09:10 +0800] "POST /SSM/test/api/jwt/login?userId=12345&passWord=123 HTTP/1.1" 200 179 http-bio-8080-exec-9 9
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:09:51 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 200 17 http-bio-8080-exec-2 739
+0:0:0:0:0:0:0:1 - - [13/Nov/2018:22:15:14 +0800] "POST /SSM/test/api/getMessage HTTP/1.1" 200 17 http-bio-8080-exec-2 706

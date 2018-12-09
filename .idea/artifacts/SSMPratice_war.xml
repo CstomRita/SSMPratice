@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSMPratice:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SSMPratice.war">
+      <element id="artifact" artifact-name="SSMPratice:war exploded" />
+    </root>
+  </artifact>
+</component>
